@@ -1,0 +1,312 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #dcdcdc;
+}
+header{
+  width: 100%;
+  height: 80px;
+  background-color:white;
+  margin: -10px 0px 0px 0px;
+}
+header ul{
+  text-align: right;
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+
+}
+header ul li{
+  display: inline-block;
+  padding: 25px 30px 5px 30px;
+  font-size: 130%;
+}
+header ul li a{
+  text-decoration: none;
+  color:#000000;
+  font-family: 'Cormorant Garamond', serif;
+}
+header li a:hover{
+  color: #c1c1c1;
+}
+/*-------------konten 1 -----------------*/
+.konten{
+  width: 98%;
+  height: 600px;
+  margin: 1% 0% 0% 1%;
+  background: url('../img/rumah.jpg') no-repeat 50% 50%;
+  border-radius: 5px;
+}
+.konten-h h1{
+  text-align: center;
+  color: #FFAA28;
+  margin-top: 1%;
+  font-family: 'Cinzel', serif;
+  font-size: 550%;
+}
+.konten-h {
+  width: 90px;
+  margin: 200px 0px 0px 210px;
+  padding: 25px;
+  border-style: groove;
+  float: none;
+}
+.konten-s{
+  width: 50%;
+  height: 1%;
+  background-color:white;
+  margin: 0% 0% 0% 25%
+}
+
+/*-----------------konten 3 ---------*/
+h2 {
+  text-align: center;
+}
+
+.mitgliederliste {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+figure {
+  border: 10px solid #DADCDB;
+  margin: 10px 10px;
+  padding: 0;
+   box-shadow: 7px 7px 10px;
+   padding: 5px;
+}
+
+figure.einzel {
+  display: inline-block;
+  position: relative;
+
+}
+
+figure img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  padding: 5px;
+}
+
+figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font: 400 18px/26px Verdana, sans-serif;
+  padding: .2em 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+figcaption span {
+  font-size: 14px;
+}
+.kotak{
+  background-color: #22313F;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: none;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+/*//*
+.gallery{
+  padding: 10px;
+  text-align: center;
+}
+.kotak{
+
+  height: 450px;
+}
+.k-dalam{
+  background-color: #EEEEEE;
+  width: 75%;
+  height: 450px;
+  margin: 0% 0% 0% 13%;
+  border-radius: 10px;
+  color: white;
+}
+
+img{
+  margin: 5% 0% 0% 0%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+img:hover {
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 1000;
+}
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}*/
+.modsize{
+  width: 500px;
+  height: 500px;
+}
+
+.button-one, .button-two, .button-three{
+  text-align: center;
+  cursor: pointer;
+  font-size:20px;
+  margin: 15px 0 0 10px;
+}
+.title{
+  color: black;
+}
+
+.button-three {
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    background-color: #228B22;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+}
+.form-data input{
+  border-radius: 5px;
+  color: black;
+  width: 550px;
+  height: 30px;
+  margin-top: 10px;
+  
+}
+.form-data p{
+  color: black;
+  text-align: left;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 10px;
+  
+
+}
+/*-----------footer--------*/
+.footer {
+  padding: 50px 0 20px 0;
+  background-color: #090c14;
+  width: 100%;
+  color: #878c94;
+  margin: 10px 0px 0px 0px;
+}
+.footer .title{
+  text-align: left;
+  color:#fff;
+  font-size:25px;
+}
+.footer .social-icon{
+  padding:0px;
+  margin:0px;
+}
+.footer .social-icon a{
+  display:inline-block;
+  color:#fff;
+  font-size:40px;
+  padding:5px;
+}
+
+.footer .fa-facebook{
+  color: #148CFF;
+}
+.footer .fa-instagram{
+  color: #EE84EA;
+}
+.footer .fa-google{
+  color: #FF3232;
+}
+.footer .fa-whatsapp{
+  color: #288C28;
+  height: 20px;
+  width: 20px;
+}
+.footer .fa-phone{
+  color: #288C28;
+  height: 20px;
+  width: 20px;
+}
+.footer .acount-icon a{
+  display:block;
+  color:#fff;
+  font-size:18px;
+  padding:5px;
+  text-decoration:none;
+}
+.footer .acount-icon .fab{
+  margin-right:25px;
+}
+.footer .category a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 1px;
+  border-radius:4px;
+  margin-top: 6px;
+  background-color: black;
+  border: solid 1px #fff;
+}
+.footer .payment{
+  margin:0px;
+  padding:0px;
+  list-style-type:none
+}
+.footer .payment li{
+  list-style-type:none
+}
+.footer .payment li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  float: left;
+  font-size: 25px;
+  padding: 10px 10px;
+}

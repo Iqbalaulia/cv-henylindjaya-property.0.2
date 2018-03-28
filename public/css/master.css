@@ -1,0 +1,326 @@
+/* Header ------------------*/
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color:white;
+  margin: -10px 0px 0px 0px;
+  border-radius: 5px;
+}
+header ul{
+  text-align: right;
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+
+}
+header ul li{
+  display: inline-block;
+  padding: 25px 30px 5px 30px;
+  font-size: 130%;
+}
+header ul li a{
+  text-decoration: none;
+  color:#000000;
+  font-family: 'Cormorant Garamond', serif;
+}
+header li a:hover{
+  color: #c1c1c1;
+}
+
+
+/* Konten pertama -------------------------*/
+
+.konten{
+  width: 100%;
+  height: 100%;
+  background: url('../img/rumah.jpg') no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.konten-s{
+  width: 100%;
+  margin-top: 10%;
+
+
+}
+.row-centered{
+  text-align: center;
+}
+.col-centered{
+  display: inline-block;
+  float:none;
+  text-align: left;
+  margin: -4px;
+  margin-top: 20%;
+
+}
+.bts{
+  margin: 10% 0% 0% 40%;
+  width:400px;
+}
+
+.konten-s h4{
+  text-align: center;
+  color: #FFAA28;
+  margin-top: 1%;
+  font-family: 'Monoton', cursive;
+  font-size: 400%;
+}
+.konten-s h3{
+  text-align: center;
+  color: #FFAA28;
+  margin-top: 1%;
+  font-family: 'Monoton', cursive;
+  font-size: 450%;
+}
+
+.konten-s h2{
+  text-align: center;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0px 20px 0px 10px;
+  font-size: 25px;
+
+}
+
+
+}
+.col-centered ul{
+
+  list-style: none;
+  text-align: right;
+  padding: 10px 0px 10px 0px;
+  margin: 5% 10% 10% 35%;
+
+  /* text-align: center;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 12% 10% 10% 35%;
+  font-size: 30px; */
+
+}
+
+
+.col-centered li a{
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  color: white;
+  width: 50%;
+  font-size: 20px;
+}
+
+/*-----Konten ke dua---------*/
+
+
+.konten-2 img{
+  width :80%;
+  height:45%;
+  margin: 10% 10% 10% 10%;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  -moz-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+}
+
+.konten-2 h1{
+  font-family: 'Abril Fatface', cursive;
+  margin: 10% 0% 0% 5%;
+  color: #32313a;
+}
+
+.konten-2  p{
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 2% 0% 0% 5%;
+  color: black;
+}
+.konten-2 ul{
+  list-style: none;
+}
+.konten-2 li{
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 2% 0% 0% 1%;
+  color: #32313a;
+}
+
+/* ---------Konten Ke tiga ------------*/
+
+.konten-3{
+  background-image: linear-gradient(141deg,#fda876,#ffaa6c 27%,#ffa876 52%,#fe906a 73%,#ff837d);
+
+}
+.konten-3 h1{
+  font-family: 'Abril Fatface', cursive;
+  margin: 10% 0% 0% 15%;
+  color: #ffffff;
+}
+.konten-3 ul {
+  list-style: none;
+}
+.konten-3 li{
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 2% 0% 0% 15%;
+  color: #fff;
+}
+.konten-3 img{
+  width :80%;
+  height:45%;
+  margin: 10% 10% 10% 10%;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  -moz-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+}
+
+/*---------------Konten ke Empat------------*/
+
+.konten-4{
+
+}
+.konten-4 h1{
+  font-family: 'Abril Fatface', cursive;
+  margin: 10% 0% 0% 9%;
+  color: #32313a;
+}
+
+.konten-4 ul{
+  list-style: none;
+}
+.konten-4 li{
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 1% 0% 0% 5%;
+  color: #32313a;
+}
+.konten-4 h2{
+  font-family: 'Abril Fatface', cursive;
+  margin: 5% 0% 0% 5%;
+  color: #32313a;
+  font-size: 25px;
+}
+.konten-4 img{
+  width :80%;
+  height:45%;
+  margin: 10% 10% 10% 10%;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  -moz-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+}
+
+.konten-5{
+  background-image: linear-gradient(141deg,#fda876,#ffaa6c 27%,#ffa876 52%,#fe906a 73%,#ff837d);
+
+}
+.konten-5 h1{
+  font-family: 'Abril Fatface', cursive;
+  margin: 10% 0% 0% 9%;
+  color: #32313a;
+}
+
+.konten-5 ul{
+  list-style: none;
+}
+.konten-5 li{
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 1% 0% 0% 5%;
+  color: #32313a;
+}
+.konten-5 h2{
+  font-family: 'Abril Fatface', cursive;
+  margin: 14% 0% 0% 5%;
+  color: #32313a;
+  font-size: 25px;
+}
+.konten-5 img{
+  width :80%;
+  height:45%;
+  margin: 10% 10% 10% 10%;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  -moz-box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+  box-shadow: 9px 10px 28px 2px rgba(0,0,0,0.56);
+}
+
+/*---------------------Footer ----------------*/
+.footer {
+  padding: 50px 0 20px 0;
+  background-color: #090c14;
+  color: #878c94;
+  margin: 10px 0px 0px 0px;
+}
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:40px;
+	padding:5px;
+}
+
+.footer .fa-facebook{
+  color: #148CFF;
+}
+.footer .fa-instagram{
+  color: #EE84EA;
+}
+.footer .fa-google{
+  color: #FF3232;
+}
+.footer .fa-whatsapp{
+  color: #288C28;
+  height: 20px;
+  width: 20px;
+}
+.footer .fa-phone{
+  color: #288C28;
+  height: 20px;
+  width: 20px;
+}
+.footer .acount-icon a{
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+.footer .acount-icon .fab{
+	margin-right:25px;
+}
+.footer .category a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 1px;
+  border-radius:4px;
+  margin-top: 6px;
+  background-color: black;
+  border: solid 1px #fff;
+}
+.footer .payment{
+	margin:0px;
+	padding:0px;
+	list-style-type:none
+}
+.footer .payment li{
+	list-style-type:none
+}
+.footer .payment li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  float: left;
+  font-size: 25px;
+  padding: 10px 10px;
+}
